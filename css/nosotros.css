@@ -1,0 +1,151 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Roboto-Regular", sans-serif;
+  src: url(./Roboto/Roboto-Regular.ttf);
+}
+p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.redes-facebook {
+  color: blue;
+}
+
+.redes-instagram {
+  color: #a73272;
+}
+
+.redes-twitter {
+  color: #0c78c0;
+}
+
+.redes-youtube {
+  color: red;
+}
+
+h1 {
+  color: #12293d;
+  padding: 35px 35px;
+}
+
+h2 {
+  color: #12293d;
+  padding: 35px 35px;
+}
+
+h3 {
+  color: #12293d;
+}
+
+section {
+  font-size: 20px;
+  padding: 20px;
+  margin: 20px;
+}
+
+article {
+  padding: 25px 25px;
+}
+
+p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: black;
+  padding: 10px;
+}
+
+#padForm {
+  padding-top: 30px;
+}
+
+ul li {
+  padding: 10px;
+}
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  font-family: "Roboto-Regular", sans-serif;
+}
+
+a {
+  color: white;
+}
+
+.centrarTexto {
+  text-align: center;
+}
+
+.sinSubrayado {
+  text-decoration: none;
+}
+
+.links {
+  color: #0c71ca;
+}
+
+a:hover {
+  color: #12293d;
+  background-color: white;
+}
+
+.boton,
+.boton-nuevo {
+  color: white;
+  background-color: #0c71ca;
+  transition: all 1s;
+}
+
+.boton:hover,
+.boton-nuevo:hover {
+  border: #12293d solid 10px;
+}
+
+.imagenFondo {
+  background-image: linear-gradient(#12293d, white);
+  padding: 0px;
+}
+
+.tituloAnimado {
+  animation-name: tituloAnimado;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+}
+
+@keyframes tituloAnimado {
+  from {
+    transform: translate(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+.boton-nuevo {
+  background-color: #070731;
+}
+.facebook {
+  padding: 5px;
+  margin: 5px;
+}
+
+.instagram {
+  padding: 5px;
+  margin: 5px;
+}
+
+.twitter {
+  padding: 5px;
+  margin: 5px;
+}
+
+.youtube {
+  padding: 5px;
+  margin: 5px;
+}
